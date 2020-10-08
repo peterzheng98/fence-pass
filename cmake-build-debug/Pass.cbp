@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Pass"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\usr\;CMake Files\..\..\usr\lib\;CMake Files\..\..\usr\lib\llvm-10\;CMake Files\..\..\usr\lib\llvm-10\cmake\;CMake Files\..\..\usr\lib\llvm-10\lib\;CMake Files\..\..\usr\lib\llvm-10\lib\cmake\;CMake Files\..\..\usr\lib\llvm-10\lib\cmake\llvm\;CMake Files\FenceDetectorPass\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.nnGVn14dn9/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/tmp.nnGVn14dn9/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="intrinsics_gen">
+				<Option working_dir="/tmp/tmp.nnGVn14dn9/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/Makefile&quot;  VERBOSE=1 intrinsics_gen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.nnGVn14dn9/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FenceDetectorPass">
+				<Option output="/tmp/tmp.nnGVn14dn9/cmake-build-debug/FenceDetectorPass/libFenceDetectorPass.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.nnGVn14dn9/cmake-build-debug/FenceDetectorPass"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/FenceDetectorPass/Makefile&quot;  VERBOSE=1 FenceDetectorPass"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/FenceDetectorPass/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/FenceDetectorPass/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/FenceDetectorPass/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FenceDetectorPass/fast">
+				<Option output="/tmp/tmp.nnGVn14dn9/cmake-build-debug/FenceDetectorPass/libFenceDetectorPass.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.nnGVn14dn9/cmake-build-debug/FenceDetectorPass"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/llvm-10/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/FenceDetectorPass/Makefile&quot;  VERBOSE=1 FenceDetectorPass/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/FenceDetectorPass/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/FenceDetectorPass/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.nnGVn14dn9/cmake-build-debug/FenceDetectorPass/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.nnGVn14dn9/FenceDetectorPass/FenceDetectorPass.cpp">
+			<Option target="FenceDetectorPass"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.nnGVn14dn9/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.nnGVn14dn9/../../usr/lib/llvm-10/cmake/LLVMConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\llvm-10\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.nnGVn14dn9/../../usr/lib/llvm-10/cmake/LLVMConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\llvm-10\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.nnGVn14dn9/../../usr/lib/llvm-10/lib/cmake/llvm/LLVM-Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\llvm-10\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.nnGVn14dn9/../../usr/lib/llvm-10/lib/cmake/llvm/LLVMExports-relwithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\llvm-10\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.nnGVn14dn9/../../usr/lib/llvm-10/lib/cmake/llvm/LLVMExports.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\llvm-10\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.nnGVn14dn9/FenceDetectorPass/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\FenceDetectorPass\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

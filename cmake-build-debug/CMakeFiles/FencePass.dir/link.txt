@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/FencePass.dir/main.cpp.o -o FencePass 
